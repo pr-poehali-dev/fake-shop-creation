@@ -199,6 +199,15 @@ const Index = () => {
       </header>
 
       <main className="container mx-auto px-4 py-12">
+        <div className="bg-red-100 border-2 border-red-500 rounded-lg p-6 mb-8 text-center">
+          <p className="text-xl font-bold text-red-900 mb-2">
+            ⚠️ ЭТО ПРОБНЫЙ САЙТ ⚠️
+          </p>
+          <p className="text-md text-red-800">
+            Товары не настоящие. Оплата не работает. Создано для демонстрации возможностей.
+          </p>
+        </div>
+
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary">
             Официальный мерч KOMARSER
