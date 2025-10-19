@@ -23,91 +23,51 @@ interface CartItem extends Product {
 const products: Product[] = [
   {
     id: 1,
-    name: 'Швейцарские часы Elegance',
-    price: 245000,
-    category: 'Аксессуары',
-    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/ceb88278-e7cc-47f5-aeb7-06f710e152b7.jpg',
-    description: 'Роскошные швейцарские часы с сапфировым стеклом'
+    name: 'Футболка KOMARSER',
+    price: 1500,
+    category: 'Одежда',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/b968a950-e15c-41ee-89ea-fb36ffa46d95.jpg',
+    description: 'Чёрная футболка с логотипом исполнителя'
   },
   {
     id: 2,
-    name: 'Кожаная сумка Premium',
-    price: 89000,
-    category: 'Аксессуары',
-    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/0feb22f4-102a-487c-8953-66eebeb8e42f.jpg',
-    description: 'Итальянская кожа ручной работы'
+    name: 'Худи KOMARSER',
+    price: 3500,
+    category: 'Одежда',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/eb19d235-b97b-44a7-acb4-afad273c3103.jpg',
+    description: 'Тёплое худи с принтом KOMARSER'
   },
   {
     id: 3,
-    name: 'Парфюм Noir de Luxe',
-    price: 15000,
-    category: 'Парфюмерия',
-    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/d74930a2-0807-44b8-a12f-b9bcd9cdb6a6.jpg',
-    description: 'Эксклюзивный аромат от французского парфюмера'
+    name: 'Кепка KOMARSER',
+    price: 1200,
+    category: 'Аксессуары',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/a3f83d81-48ac-4f07-96fe-402f8678fd94.jpg',
+    description: 'Бейсболка с вышитым логотипом'
   },
   {
     id: 4,
-    name: 'Солнцезащитные очки Ray',
-    price: 32000,
+    name: 'Шоппер KOMARSER',
+    price: 800,
     category: 'Аксессуары',
-    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/d14afb62-e9a7-4a8a-9551-fc6d291eac64.jpg',
-    description: 'Премиальная защита от UV-лучей'
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/c4aa8e78-3329-4504-b4df-f9725678996f.jpg',
+    description: 'Тканевая сумка с принтом'
   },
   {
     id: 5,
-    name: 'Кашемировый шарф',
-    price: 28000,
-    category: 'Одежда',
-    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/4faaa818-b42e-4b07-95e3-3582eb748f3c.jpg',
-    description: '100% кашемир из Шотландии'
+    name: 'Набор стикеров KOMARSER',
+    price: 300,
+    category: 'Аксессуары',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/24a4d037-9be4-4763-9a7b-79091529d0d2.jpg',
+    description: 'Коллекция виниловых наклеек'
   },
   {
     id: 6,
-    name: 'Кожаный портфель Executive',
-    price: 125000,
+    name: 'Чехол на телефон KOMARSER',
+    price: 900,
     category: 'Аксессуары',
-    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/a510a167-777b-4992-b03e-e8f90f4fbff5.jpg',
-    description: 'Ручная работа, натуральная кожа'
-  },
-  {
-    id: 7,
-    name: 'Журнал «Призрачный гонщик»',
-    price: 1000,
-    category: 'Журналы',
-    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/f87663b7-0310-4bbb-a9ef-341421e23c41.jpg',
-    description: 'Культовый комикс о мотоциклисте с огненным черепом'
-  },
-  {
-    id: 8,
-    name: 'Комикс «Человек-паук»',
-    price: 850,
-    category: 'Журналы',
-    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/6bdf5cca-25a7-4988-a90e-700cf9631d79.jpg',
-    description: 'Винтажный выпуск с приключениями супергероя'
-  },
-  {
-    id: 9,
-    name: 'Брелок «Ретро-геймпад»',
-    price: 450,
-    category: 'Аксессуары',
-    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/15a48d1d-ccbd-41d4-b1cc-e7c5cdfdd8d0.jpg',
-    description: 'Ностальгический брелок для любителей игр'
-  },
-  {
-    id: 10,
-    name: 'Носки «Пицца»',
-    price: 350,
-    category: 'Одежда',
-    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/22777311-2e91-42d9-bd11-b03f27234d90.jpg',
-    description: 'Прикольные носки с принтом пиццы'
-  },
-  {
-    id: 11,
-    name: 'Набор винтажных открыток',
-    price: 600,
-    category: 'Канцелярия',
-    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/90a869d1-2dff-4c41-8c80-8b9fdbba1c7c.jpg',
-    description: 'Коллекция ретро-открыток для путешественников'
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/59973f6d-fdea-4d20-a536-f3e2a678e926.jpg',
+    description: 'Стильный чехол с логотипом исполнителя'
   }
 ];
 
@@ -180,7 +140,7 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <header className="sticky top-0 z-50 bg-primary text-primary-foreground shadow-lg">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <h1 className="text-2xl md:text-3xl font-bold tracking-tight">LUXE BOUTIQUE</h1>
+          <h1 className="text-2xl md:text-3xl font-bold tracking-tight">KOMARSER MERCH</h1>
           <Button
             variant="secondary"
             size="lg"
@@ -201,10 +161,10 @@ const Index = () => {
       <main className="container mx-auto px-4 py-12">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary">
-            Премиальная коллекция
+            Официальный мерч KOMARSER
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Эксклюзивные товары высочайшего качества для взыскательных покупателей
+            Поддержи любимого исполнителя — носи стильный мерч!
           </p>
         </div>
 
