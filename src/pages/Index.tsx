@@ -68,6 +68,46 @@ const products: Product[] = [
     category: 'Аксессуары',
     image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/a510a167-777b-4992-b03e-e8f90f4fbff5.jpg',
     description: 'Ручная работа, натуральная кожа'
+  },
+  {
+    id: 7,
+    name: 'Журнал «Призрачный гонщик»',
+    price: 1000,
+    category: 'Журналы',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/f87663b7-0310-4bbb-a9ef-341421e23c41.jpg',
+    description: 'Культовый комикс о мотоциклисте с огненным черепом'
+  },
+  {
+    id: 8,
+    name: 'Комикс «Человек-паук»',
+    price: 850,
+    category: 'Журналы',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/6bdf5cca-25a7-4988-a90e-700cf9631d79.jpg',
+    description: 'Винтажный выпуск с приключениями супергероя'
+  },
+  {
+    id: 9,
+    name: 'Брелок «Ретро-геймпад»',
+    price: 450,
+    category: 'Аксессуары',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/15a48d1d-ccbd-41d4-b1cc-e7c5cdfdd8d0.jpg',
+    description: 'Ностальгический брелок для любителей игр'
+  },
+  {
+    id: 10,
+    name: 'Носки «Пицца»',
+    price: 350,
+    category: 'Одежда',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/22777311-2e91-42d9-bd11-b03f27234d90.jpg',
+    description: 'Прикольные носки с принтом пиццы'
+  },
+  {
+    id: 11,
+    name: 'Набор винтажных открыток',
+    price: 600,
+    category: 'Канцелярия',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/90a869d1-2dff-4c41-8c80-8b9fdbba1c7c.jpg',
+    description: 'Коллекция ретро-открыток для путешественников'
   }
 ];
 
