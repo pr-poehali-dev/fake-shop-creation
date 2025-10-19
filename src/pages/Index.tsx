@@ -26,7 +26,7 @@ const products: Product[] = [
     name: 'Швейцарские часы Elegance',
     price: 245000,
     category: 'Аксессуары',
-    image: 'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=400&h=400&fit=crop',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/ceb88278-e7cc-47f5-aeb7-06f710e152b7.jpg',
     description: 'Роскошные швейцарские часы с сапфировым стеклом'
   },
   {
@@ -34,7 +34,7 @@ const products: Product[] = [
     name: 'Кожаная сумка Premium',
     price: 89000,
     category: 'Аксессуары',
-    image: 'https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=400&h=400&fit=crop',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/0feb22f4-102a-487c-8953-66eebeb8e42f.jpg',
     description: 'Итальянская кожа ручной работы'
   },
   {
@@ -42,7 +42,7 @@ const products: Product[] = [
     name: 'Парфюм Noir de Luxe',
     price: 15000,
     category: 'Парфюмерия',
-    image: 'https://images.unsplash.com/photo-1541643600914-78b084683601?w=400&h=400&fit=crop',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/d74930a2-0807-44b8-a12f-b9bcd9cdb6a6.jpg',
     description: 'Эксклюзивный аромат от французского парфюмера'
   },
   {
@@ -50,7 +50,7 @@ const products: Product[] = [
     name: 'Солнцезащитные очки Ray',
     price: 32000,
     category: 'Аксессуары',
-    image: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=400&h=400&fit=crop',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/d14afb62-e9a7-4a8a-9551-fc6d291eac64.jpg',
     description: 'Премиальная защита от UV-лучей'
   },
   {
@@ -58,7 +58,7 @@ const products: Product[] = [
     name: 'Кашемировый шарф',
     price: 28000,
     category: 'Одежда',
-    image: 'https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=400&h=400&fit=crop',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/4faaa818-b42e-4b07-95e3-3582eb748f3c.jpg',
     description: '100% кашемир из Шотландии'
   },
   {
@@ -66,7 +66,7 @@ const products: Product[] = [
     name: 'Кожаный портфель Executive',
     price: 125000,
     category: 'Аксессуары',
-    image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/a510a167-777b-4992-b03e-e8f90f4fbff5.jpg',
     description: 'Ручная работа, натуральная кожа'
   }
 ];
