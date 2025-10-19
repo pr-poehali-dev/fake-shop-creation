@@ -68,6 +68,46 @@ const products: Product[] = [
     category: 'Аксессуары',
     image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/59973f6d-fdea-4d20-a536-f3e2a678e926.jpg',
     description: 'Стильный чехол с логотипом исполнителя'
+  },
+  {
+    id: 7,
+    name: 'Журнал «Призрачный гонщик»',
+    price: 1000,
+    category: 'Комиксы',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/f87663b7-0310-4bbb-a9ef-341421e23c41.jpg',
+    description: 'Культовый комикс о мотоциклисте с огненным черепом'
+  },
+  {
+    id: 8,
+    name: 'Комикс «Человек-паук»',
+    price: 850,
+    category: 'Комиксы',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/6bdf5cca-25a7-4988-a90e-700cf9631d79.jpg',
+    description: 'Винтажный выпуск с приключениями супергероя'
+  },
+  {
+    id: 9,
+    name: 'Комикс «Бэтмен»',
+    price: 950,
+    category: 'Комиксы',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/6a1e03f0-022a-4ae1-b2f2-7690b5e49863.jpg',
+    description: 'Тёмный рыцарь в классическом выпуске DC'
+  },
+  {
+    id: 10,
+    name: 'Комикс «Люди Икс»',
+    price: 900,
+    category: 'Комиксы',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/91de53de-ab49-4ee8-a892-35ec1c35aef6.jpg',
+    description: 'Команда мутантов против зла'
+  },
+  {
+    id: 11,
+    name: 'Комикс «Дэдпул»',
+    price: 880,
+    category: 'Комиксы',
+    image: 'https://cdn.poehali.dev/projects/cec57cb3-8eca-487e-acf7-cea9659cb461/files/37637c9f-cbc9-4622-8423-873fdb02c262.jpg',
+    description: 'Безумный антигерой в красном костюме'
   }
 ];
 
